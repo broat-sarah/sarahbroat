@@ -1,0 +1,70 @@
+#sarah-img{
+  width: 40vw;
+  height: auto;
+  max-width: 500px;
+  max-height: 500px;
+  display: block;
+  margin: 20px auto;
+}
+
+h1{
+  font-family: 'Libre Baskerville', serif !important;
+  margin-top: 0rem;
+}
+h2 {
+  font-size: 2.5rem;
+}
+h3 {
+  font-family: 'Libre Baskerville', serif !important;
+  font-size: 2.25rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+h4 {
+  font-family: 'Libre Baskerville', serif !important;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+p{
+  font-size: 1.25rem;
+  margin-top: 0.25rem;
+}
+.emphasis {
+  font-family: 'Libre Baskerville', serif !important;
+  font-weight: bold;
+}
+a {
+color: #ff8f00;
+font-weight: 400;
+font-size: 1.25rem;
+&:hover, &:active, &:focus{
+  text-decoration: none;
+  font-weight: 600;
+  color: #333;
+}
+}
+
+@media (max-width: 991px) {
+  #sarah-img {
+    width: 50vw;
+    height: auto;
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 768px) {
+  #sarah-img {
+    width: 50vw;
+    height: auto;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 600px) {
+  #sarah-img {
+    width: 60vw;
+    height: auto;
+    max-width: 250px;
+  }
+}

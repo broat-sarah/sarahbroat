@@ -1,0 +1,63 @@
+<div class="nav-wrapper">
+  <ng-container *ngIf="contextual; else horizontal">
+  <mat-sidenav-container class="example-container">
+        <mat-sidenav #sidenav class="example-sidenav" mode="over">
+          <mat-nav-list>
+          <ng-container *ngFor="let element of menuElements">
+                <a *ngIf="element.link.startsWith('http'); else standard" mat-list-item center target="_blank" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:
+  true}" rel="noopener" href="{{element.link}}">
+                  {{element.text}}
+              </a>
+              <ng-template #standard>
+                  <a mat-list-item center routerLink="{{element.link}}" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:
+    true}">{{element.text}}</a>
+              </ng-template>
+          </ng-container>
+          </mat-nav-list>
+        </mat-sidenav>
+
+        <div class="example-sidenav-content">
+          <button type="button" mat-button (click)="sidenav.open()">
+            <i class="material-icons" style="color: #fff9c4;">menu</i>
+          </button>
+          <a routerLink="/" class="brand-logo"><img src="./assets/img/essbee.png" style="height: 50px; margin: 7px 20px;" id="logo-mobile"></a>
+        </div>
+
+      </mat-sidenav-container>
+      </ng-container>
+
+
+  <!--<ng-container *ngIf="contextual; else horizontal">
+      <button mat-mini-fab [matMenuTriggerFor]="appMenu" class="menu-button open-nav">
+          <i class="material-icons">menu</i>
+      </button>
+      <mat-menu #appMenu="matMenu">
+          <ng-container *ngFor="let element of menuElements">
+              <a *ngIf="element.link.startsWith('http'); else standard" mat-button target="_blank" routerLinkActive="active-link" rel="noopener" href="{{element.link}}">
+                  {{element.text}}
+              </a>
+              <ng-template #standard>
+                  <a mat-raised-button routerLink="{{element.link}}" routerLinkActive="active-link">{{element.text}}</a>
+              </ng-template>
+          </ng-container>
+
+      </mat-menu>
+  </ng-container>-->
+
+  <ng-template #horizontal>
+    <a routerLink="/" class="brand-logo"><img src="./assets/img/essbee.png" style="height: 50px; margin: 7px 20px;"></a>
+      <ul class="right hide-on-sm-and-down">
+          <li *ngFor="let element of menuElements">
+              <a *ngIf="element.link.startsWith('http'); else standard" btn-flat yellow lighten-5 target="_blank" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:
+true}" rel="noopener" href="{{element.link}}">
+                  {{element.text}}
+              </a>
+              <ng-template #standard>
+                  <a btn-flat yellow lighten-5 routerLink="{{element.link}}" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:
+true}">{{element.text}}</a>
+              </ng-template>
+          </li>
+
+      </ul>
+  </ng-template>
+</div>
