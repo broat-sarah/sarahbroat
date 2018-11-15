@@ -1,0 +1,106 @@
+{
+  "configVersion": 1,
+  "appData": {
+    "name": "Angular Universal PWA",
+    "description": "Angular PWA with Server Side Rendering - starter"
+  },
+  "index": "/docs/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/docs/index.html",
+        "/docs/main.fa8b5914b074f98a8950.js",
+        "/docs/polyfills.f6930679dbd092886231.js",
+        "/docs/runtime.ec2944dd8b20ec099bf3.js",
+        "/docs/styles.a6f7ca33ecf09a6acfd0.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/docs/assets/img/background.png",
+        "/docs/assets/img/essbee.gif",
+        "/docs/assets/img/essbee.png",
+        "/docs/assets/img/guntastolzl.png",
+        "/docs/assets/img/hexagonbee3.gif",
+        "/docs/assets/img/hexagonbee4.gif",
+        "/docs/assets/img/hexagonbee5.gif",
+        "/docs/assets/img/img1-thumb.png",
+        "/docs/assets/img/img1.png",
+        "/docs/assets/img/img2-thumb.png",
+        "/docs/assets/img/img2.png",
+        "/docs/assets/img/img3-thumb.png",
+        "/docs/assets/img/img3.png",
+        "/docs/assets/img/img4-thumb.png",
+        "/docs/assets/img/img4.png",
+        "/docs/assets/img/lighthouse_report.png",
+        "/docs/assets/img/preprallyv7.pdf",
+        "/docs/assets/img/sarah.jpg",
+        "/docs/assets/img/yuletidemeadfinal.pdf"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "fonts",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [],
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/.*",
+        "https:\\/\\/fonts\\.gstatic\\.com\\/.*",
+        "https:\\/\\/cdn\\.ampproject\\.org\\/.*"
+      ]
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/docs/assets/img/background.png": "72664572a5ec9488d53b59598b7dc023d34718e2",
+    "/docs/assets/img/essbee.gif": "5266e012f5f708ec20841c695562d11d4d1b187f",
+    "/docs/assets/img/essbee.png": "f6ef35c6429ca27fdec91c18e94fbb8a7b54e607",
+    "/docs/assets/img/guntastolzl.png": "c3b31258eb6fc0a023c0ccdceb0ca1ded00cf987",
+    "/docs/assets/img/hexagonbee3.gif": "66439714300b126f940ffa5e35ba2568704d9a84",
+    "/docs/assets/img/hexagonbee4.gif": "4e1dd05bc12362f4be7030044c4c54d79b4e6069",
+    "/docs/assets/img/hexagonbee5.gif": "ec823f64adeac70a4af6bdffe2dcaf06065db427",
+    "/docs/assets/img/img1-thumb.png": "4cea9b5b7579a8c221a7e19b169daf6c2ca12eb1",
+    "/docs/assets/img/img1.png": "14f72685cfcee4384cee7640d320d3bf0ed9b231",
+    "/docs/assets/img/img2-thumb.png": "81cd2086c6a8abb1339d3d571a1ebf74d54af8ac",
+    "/docs/assets/img/img2.png": "96984a6a545a44f764733c2d56b4f8e60c3a31eb",
+    "/docs/assets/img/img3-thumb.png": "aee802061ef42b84f8af9de5b550673b89083b2c",
+    "/docs/assets/img/img3.png": "5c7753e0c48676cabfadae21c2f3ada48b06795a",
+    "/docs/assets/img/img4-thumb.png": "3ce85dccdd8bc34d7e65bad3d1f057db1f9525c5",
+    "/docs/assets/img/img4.png": "d8ba6b502c1b93efe0003066b893362911625f7b",
+    "/docs/assets/img/lighthouse_report.png": "3341cab8c1bf857a12411040f35f6354197e2c96",
+    "/docs/assets/img/preprallyv7.pdf": "9c3229ccae46f58b6a4bdf87db74488d17544e61",
+    "/docs/assets/img/sarah.jpg": "6139edc3fed36431d8c17f675e08769e3f29da36",
+    "/docs/assets/img/yuletidemeadfinal.pdf": "eacb23fb79e8d44d75dee899dcb99dd325491e5d",
+    "/docs/index.html": "d0d3754ac433bc5fe388a89b1f7e85604dd48913",
+    "/docs/main.fa8b5914b074f98a8950.js": "60f6f70974e959e1cb77ed39135b58eb92598c44",
+    "/docs/polyfills.f6930679dbd092886231.js": "edc0e79fc6315db4d76b2e7e56702677a06e24c1",
+    "/docs/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/docs/styles.a6f7ca33ecf09a6acfd0.css": "ea36bd4bf2cace29d4d39a0306516526e2c407c4"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
