@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sarahbroat/static/css/main.801d59a6.css",
-    "main.js": "/sarahbroat/static/js/main.78289daa.js",
+    "main.js": "/sarahbroat/static/js/main.1ec34808.js",
     "static/js/787.83bda6fa.chunk.js": "/sarahbroat/static/js/787.83bda6fa.chunk.js",
     "static/media/SarahHeadshot.jpg": "/sarahbroat/static/media/SarahHeadshot.6ba8d9a63b0e91ae6063.jpg",
     "static/media/emailcollage.jpg": "/sarahbroat/static/media/emailcollage.7d8876042047fdb70d68.jpg",
@@ -39,11 +39,11 @@
     "static/media/roboto-greek-ext-700-normal.woff2": "/sarahbroat/static/media/roboto-greek-ext-700-normal.9674bc0ae12c2551d9d1.woff2",
     "index.html": "/sarahbroat/index.html",
     "main.801d59a6.css.map": "/sarahbroat/static/css/main.801d59a6.css.map",
-    "main.78289daa.js.map": "/sarahbroat/static/js/main.78289daa.js.map",
+    "main.1ec34808.js.map": "/sarahbroat/static/js/main.1ec34808.js.map",
     "787.83bda6fa.chunk.js.map": "/sarahbroat/static/js/787.83bda6fa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.801d59a6.css",
-    "static/js/main.78289daa.js"
+    "static/js/main.1ec34808.js"
   ]
 }
